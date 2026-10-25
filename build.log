@@ -1,0 +1,54 @@
+
+> tuan8-app@0.1.0 build
+> next build --turbopack
+
+ ⚠ Found lockfile missing swc dependencies, patching...
+ ⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of C:\Users\DELL\pnpm-lock.yaml as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * C:\Users\DELL\Desktop\Tuan8\tuan8-app\package-lock.json
+
+   ▲ Next.js 15.5.9 (Turbopack)
+   - Environments: .env
+
+   Creating an optimized production build ...
+ ⨯ Failed to patch lockfile, please try uninstalling and reinstalling next in this workspace
+[TypeError: Cannot read properties of undefined (reading 'os')]
+ ⚠ Found lockfile missing swc dependencies, patching...
+ ⨯ Failed to patch lockfile, please try uninstalling and reinstalling next in this workspace
+[TypeError: Cannot read properties of undefined (reading 'os')]
+ ✓ Finished writing to disk in 1729ms
+ ✓ Compiled successfully in 25.7s
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/10) ...
+   Generating static pages (2/10) 
+   Generating static pages (4/10) 
+   Generating static pages (7/10) 
+ ✓ Generating static pages (10/10)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                         Size  First Load JS
+┌ ○ /                                0 B         117 kB
+├ ○ /_not-found                      0 B         117 kB
+├ ○ /about                           0 B         117 kB
+├ ƒ /admin                           0 B         117 kB
+├ ƒ /api/auth/[...nextauth]          0 B            0 B
+├ ƒ /dashboard                       0 B         117 kB
+├ ○ /forbidden                       0 B         117 kB
+└ ○ /opengraph-image                 0 B            0 B
++ First Load JS shared by all     118 kB
+  ├ chunks/071de1a13d7302ed.js   59.2 kB
+  ├ chunks/22b2470e97dc6065.js   24.1 kB
+  └ chunks/c02a162d60f68e99.js   17.2 kB
+  └ other shared chunks (total)  17.3 kB
+
+
+ƒ Middleware                     64.2 kB
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+

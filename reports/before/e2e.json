@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-25T11:26:28.962Z",
+  "results": [
+    {
+      "name": "Guest blocked from protected pages",
+      "status": "passed"
+    },
+    {
+      "name": "Wrong password rejected",
+      "status": "passed"
+    },
+    {
+      "name": "User login/session and admin denied",
+      "status": "passed"
+    },
+    {
+      "name": "Admin login and Server Action",
+      "status": "passed"
+    },
+    {
+      "name": "Replay Server Action as user on admin route is blocked by middleware",
+      "status": "passed"
+    },
+    {
+      "name": "Logout invalidates browser session",
+      "status": "passed"
+    }
+  ],
+  "oauth": "Not tested: requires interactive GitHub authorization"
+}
